@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 
 const ProductImages = ({ images=[{url:''}] }) => {
-console.log(images);
+  console.log(images);
 const [main,setMain] = useState(images[0])
 //console.log(main)
   return (

@@ -18,7 +18,7 @@ const Contact = () => {
       className="form-input" 
       placeholder="Enter email"
       name="_replyto"/>
-      <button typr="submit" className="submit-btn">
+      <button type="submit" className="submit-btn">
       Subscribe here
       </button>
       </form>

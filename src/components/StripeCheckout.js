@@ -33,8 +33,6 @@ const stripe = useStripe()
 const elements = useElements()
 
 
-
-
   const cardStyle = {
     style: {
       base: {
@@ -103,7 +101,7 @@ const elements = useElements()
       setTimeout(()=>{
         clearcart();
         history.push('/')
-      },10000)
+      },5000)
     }
   }
 
@@ -147,7 +145,7 @@ const elements = useElements()
            {/* show a success message upon completing the payment  */}
           <p className={succeeded ? 'result-message' :
         'result-message hidden'}>
-          Payment succeeded, see the ressult in Your 
+          Payment succeeded, see the result in Your 
           <a href={`https://dashboard.stripe.com/test/payments`}>
               Stripe dashboard
           </a>

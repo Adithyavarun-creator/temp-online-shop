@@ -6,7 +6,8 @@ import Error from './Error'
 import Loading from './Loading'
 import Product from './Product'
 
-const FeaturedProducts = () => {
+const FeaturedProducts = (props) => {
+  console.log(props);
 
   const {
     products_loading,
